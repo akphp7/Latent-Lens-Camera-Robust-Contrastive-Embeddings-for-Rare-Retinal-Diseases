@@ -22,7 +22,7 @@ Retinal (fundus) AI models are trained on a few cameras and then meet new ones. 
 | 4 | **Adding labels of the common classes** (a supervised-contrastive term) lifts common-class AUROC to 0.929, level with a fully supervised fine-tune (0.928), while rare classes still tie it (0.890 vs 0.895). | step 8 |
 | 5 | A calibrated, retrieval-backed **trust layer** works on top of the embeddings (ECE 0.024 after temperature scaling; retrieval precision@5 0.538). | `results/trust_summary.md` |
 
-**Honest limits (please read):**
+**Limitations::**
 - A fully supervised fine-tune is still **better on unseen cameras** (cam1 0.870 vs 0.846, cam2 0.861 vs 0.838). We do not claim to beat supervised learning.
 - The rare-disease gain over the frozen model comes from **contrastive fine-tuning in general**. Our camera-style step ties plain SimCLR on rare classes (+0.002, interval −0.022 to +0.027). Its gain is on common classes and unseen cameras.
 - **Camera information is not removed** from the embeddings: a probe still guesses the camera with 0.97 to 0.98 accuracy, as for the frozen model (0.99).
