@@ -1,0 +1,21 @@
+{
+ "DINOv2-S backbone (Latent Lens, frozen DINOv2-S, SimCLR)": {
+  "params_m": 21.6288,
+  "gflops": 11.0297088,
+  "cpu_ms_batch1": 84.74558849979985,
+  "cpu_threads": 2,
+  "gpu_ms_batch1": 6.232170500197753,
+  "gpu": "Tesla T4"
+ },
+ "ResNet50 (reference only)": {
+  "params_m": 23.508032,
+  "gflops": 8.174272512,
+  "cpu_ms_batch1": 81.70082949982316,
+  "cpu_threads": 2,
+  "gpu_ms_batch1": 6.766625500176815,
+  "gpu": "Tesla T4"
+ },
+ "trainable_params_m_latent_lens": 7.101696,
+ "train_seconds_median": 378.8364300727844,
+ "train_runs": 3
+}

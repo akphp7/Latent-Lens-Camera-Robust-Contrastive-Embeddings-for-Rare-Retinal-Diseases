@@ -1,0 +1,104 @@
+{
+ "Frozen DINOv2-S": {
+  "clean": {
+   "macro_auc": 0.8897949797454352,
+   "unfamiliar_auroc": null
+  },
+  "blur_sigma2": {
+   "macro_auc": 0.8010258351792303,
+   "unfamiliar_auroc": 0.8861645507812499
+  },
+  "blur_sigma4": {
+   "macro_auc": 0.6902611351615682,
+   "unfamiliar_auroc": 0.9954199218750001
+  },
+  "low_res_4x": {
+   "macro_auc": 0.8016650812658348,
+   "unfamiliar_auroc": 0.9318481445312501
+  },
+  "jpeg_q20": {
+   "macro_auc": 0.750643267689784,
+   "unfamiliar_auroc": 0.9775390625
+  },
+  "dark_x0.4": {
+   "macro_auc": 0.8780673170067819,
+   "unfamiliar_auroc": 0.6435888671875
+  },
+  "low_contrast_x0.5": {
+   "macro_auc": 0.8757866502204289,
+   "unfamiliar_auroc": 0.59603759765625
+  },
+  "noise_sd15": {
+   "macro_auc": 0.7643313009889511,
+   "unfamiliar_auroc": 0.95708740234375
+  }
+ },
+ "Plain SimCLR": {
+  "clean": {
+   "macro_auc": 0.8987085128069409,
+   "unfamiliar_auroc": null
+  },
+  "blur_sigma2": {
+   "macro_auc": 0.8687544043176043,
+   "unfamiliar_auroc": 0.66600341796875
+  },
+  "blur_sigma4": {
+   "macro_auc": 0.8009066810231036,
+   "unfamiliar_auroc": 0.86171630859375
+  },
+  "low_res_4x": {
+   "macro_auc": 0.8680802104236937,
+   "unfamiliar_auroc": 0.6795166015625
+  },
+  "jpeg_q20": {
+   "macro_auc": 0.8141843840107036,
+   "unfamiliar_auroc": 0.800576171875
+  },
+  "dark_x0.4": {
+   "macro_auc": 0.8911627157930149,
+   "unfamiliar_auroc": 0.584764404296875
+  },
+  "low_contrast_x0.5": {
+   "macro_auc": 0.890548311674614,
+   "unfamiliar_auroc": 0.5977978515625
+  },
+  "noise_sd15": {
+   "macro_auc": 0.8162595113796285,
+   "unfamiliar_auroc": 0.713330078125
+  }
+ },
+ "Latent Lens": {
+  "clean": {
+   "macro_auc": 0.9155573205545541,
+   "unfamiliar_auroc": null
+  },
+  "blur_sigma2": {
+   "macro_auc": 0.8732582711038781,
+   "unfamiliar_auroc": 0.75983642578125
+  },
+  "blur_sigma4": {
+   "macro_auc": 0.7589700150504451,
+   "unfamiliar_auroc": 0.910849609375
+  },
+  "low_res_4x": {
+   "macro_auc": 0.8636788402034372,
+   "unfamiliar_auroc": 0.7662646484375001
+  },
+  "jpeg_q20": {
+   "macro_auc": 0.8199328267201654,
+   "unfamiliar_auroc": 0.85728759765625
+  },
+  "dark_x0.4": {
+   "macro_auc": 0.9070609831502768,
+   "unfamiliar_auroc": 0.58013671875
+  },
+  "low_contrast_x0.5": {
+   "macro_auc": 0.9095772311585749,
+   "unfamiliar_auroc": 0.509810791015625
+  },
+  "noise_sd15": {
+   "macro_auc": 0.8117746839057318,
+   "unfamiliar_auroc": 0.853699951171875
+  }
+ }
+}

@@ -1,0 +1,14 @@
+# Tested on Kaggle (Python 3.13, torch 2.11, CUDA GPU: T4 / P100). Versions are not pinned on purpose;
+# Kaggle's preinstalled torch / numpy / pandas / scikit-learn are used. Install what is missing:
+torch
+torchvision
+timm
+numpy
+pandas
+scipy
+scikit-learn
+opencv-python-headless
+Pillow
+matplotlib
+umap-learn      # only for the UMAP figure (latentlens_trust.py --stage umap)
+gradio          # only for the demo (latentlens_demo.py)

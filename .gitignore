@@ -1,0 +1,17 @@
+# data and large artifacts are never committed
+data/
+*.npy
+*.npz
+*.pt
+*.pth
+*.pkl
+*.safetensors
+demo_assets/
+images_224.npy
+# python / notebook noise
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.env
